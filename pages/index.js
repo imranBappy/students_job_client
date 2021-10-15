@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Header from '../components/Header/Header'
 import Navbar from '../components/Navbar/Navbar'
 import Pricing from '../components/Pricing/Pricing'
+import styles from '../styles/Home.module.css'
 export default function Home() {
   return (
     <>
@@ -21,8 +22,8 @@ export default function Home() {
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
       </main>
 
-      <footer className="container">
-        Footer
+      <footer className="bg-dark" style={{padding:'5px 0px'}}>
+        <p style={{padding:'12px 0px 0px 0px'}} className="text-muted text-center"> ALL RIGHTS RESERVED © 2021 | PRIVACY POLICY | TERMS OF SERVICE </p>
       </footer>
     </>
   )

@@ -20,9 +20,14 @@ const Navbar = () => {
                     <a className="nav-link" href="#">Blog</a>
                     </li>
                     <li className="nav-item">
+                    <a className="nav-link" href="#">Login</a>
+                    </li>
+                    <li className="nav-item">
+                    <a className="nav-link" href="#">Register</a>
+                    </li>
+                    <li className="nav-item">
                     <a className="nav-link" href="#">Contact Us</a>
                     </li>
-                    
                 </ul>
                
                 </div>

@@ -65,8 +65,6 @@ const Pricing = () => {
               <li>User reference unlimited</li>
             </ul>
 
-            
-            
             <div class="d-grid">
               <button class="btn btn-primary" type="button">SUBSCRIBE</button>
             </div>

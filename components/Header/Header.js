@@ -1,8 +1,9 @@
-import React from 'react';
-import Image from "next/image";
-import imgs from './../../pages/api/imgs';
+import img1 from '../../public/slider1.jpg'
+import img2 from '../../public/slider2.jpg'
+import img3 from '../../public/slider3.jpg' 
 
-const Header = () => {
+const Header = () => {  
+
     return (
         <div>
             <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
@@ -13,24 +14,23 @@ const Header = () => {
             </div>
             <div className="carousel-inner">
                 <div className="carousel-item active">
-                {/* <Image  /> */}
-                <img src="https://assets.materialup.com/uploads/3509f67e-f519-4946-956e-c6b7c0ba731b/preview.png" className="d-block w-100" alt="..."/>
+                <img src={img1.src} className="d-block w-100" />
                 <div className="carousel-caption d-none d-md-block">
-                    <h5>First slide label</h5>
+                    <h2>First slide label</h2>
                     <p>Some representative placeholder content for the first slide.</p>
                 </div>
                 </div>
                 <div className="carousel-item">
-                <img src="..." className="d-block w-100" alt="..."/>
+                <img src={img3.src} className="d-block w-100" alt="..."/>
                 <div className="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
+                    <h2>Second slide label</h2>
                     <p>Some representative placeholder content for the second slide.</p>
                 </div>
                 </div>
                 <div className="carousel-item">
-                <img src="https://assets.materialup.com/uploads/3509f67e-f519-4946-956e-c6b7c0ba731b/preview.png" className="d-block w-100" alt="..."/>
+                <img src={img2.src} className="d-block w-100" alt="..."/>
                 <div className="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
+                    <h2>Third slide label</h2>
                     <p>Some representative placeholder content for the third slide.</p>
                 </div>
                 </div>
@@ -44,6 +44,7 @@ const Header = () => {
                 <span className="visually-hidden">Next</span>
             </button>
             </div>
+            <br /> <br />
         </div>
     );
 };
