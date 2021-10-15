@@ -31,7 +31,7 @@ export default function Login() {
           </div>
           <div class="d-grid">
             <button type="submit" class="btn btn-primary" >
-              Submit
+              Login
             </button>
           </div>
         </form>
