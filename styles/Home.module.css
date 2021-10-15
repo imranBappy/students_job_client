@@ -4,3 +4,9 @@
     font-weight: border;
     font-size:25px
 }
+.nav__left{
+    justify-content: flex-end
+}
+.m__r0{
+    margin-right: 0px !important
+}

@@ -23,8 +23,8 @@ const Pricing = () => {
 
             
             
-            <div class="d-grid">
-              <button class="btn btn-primary" type="button">SUBSCRIBE</button>
+            <div className="d-grid">
+              <button className="btn btn-primary" type="button">SUBSCRIBE</button>
             </div>
           </div>
         </div>
@@ -45,8 +45,8 @@ const Pricing = () => {
             </ul>
 
             
-            <div class="d-grid">
-              <button class="btn btn-primary" type="button">SUBSCRIBE</button>
+            <div className="d-grid">
+              <button className="btn btn-primary" type="button">SUBSCRIBE</button>
             </div>
           </div>
         </div>
@@ -65,8 +65,8 @@ const Pricing = () => {
               <li>User reference unlimited</li>
             </ul>
 
-            <div class="d-grid">
-              <button class="btn btn-primary" type="button">SUBSCRIBE</button>
+            <div className="d-grid">
+              <button className="btn btn-primary" type="button">SUBSCRIBE</button>
             </div>
           </div>
         </div>
