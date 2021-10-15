@@ -3,7 +3,6 @@ import Image from "next/image";
 import imgs from './../../pages/api/imgs';
 
 const Header = () => {
-    console.log(imgs());
     return (
         <div>
             <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
