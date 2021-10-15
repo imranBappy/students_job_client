@@ -2,9 +2,8 @@ import Image from "next/image";
 import mlmPkg from "../../public/mlm-pkg.jpg";
 import styles from '../../styles/Home.module.css'
 const Pricing = () => {
-
   return (
-    <div>
+    <div id="pricing">
       <div className="card-group">
         <div className="card mx-5">
           <Image src={mlmPkg} className="card-img-top" alt="..." />

@@ -1,4 +1,7 @@
-/* width */
+html,body {
+  scroll-behavior: smooth;
+}
+
 ::-webkit-scrollbar {
     width: 8px;
   }
